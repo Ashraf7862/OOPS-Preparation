@@ -1,4 +1,5 @@
-
+from stud import Student
 
 if __name__=="__main__":
-    import stud
+    object=Student("rahul",19,100)
+    print(object.display())
